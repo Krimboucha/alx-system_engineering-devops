@@ -1,3 +1,2 @@
 #!/bin/bash
-groups = $(groups $root)
-echo "$groups"
+echo "$(groups $root)"
