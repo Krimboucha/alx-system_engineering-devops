@@ -1,0 +1,4 @@
+#!/bin/bash
+paste -d '' <(cut -c1 "${1:-/dev/stdin}") | tr -d '\n'
+echo
+
