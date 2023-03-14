@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -exec sh -c 'for arg do printf "%s\n" "${arg##*/}"; done' sh {} +
+find . -empty -printf "%f\n"
