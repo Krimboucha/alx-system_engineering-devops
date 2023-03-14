@@ -1,0 +1,2 @@
+#!/bin/bash
+grep "^[\x41-\x5A\x61-\x7A]" /etc/ssh/sshd_config
